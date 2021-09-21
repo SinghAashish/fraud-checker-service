@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		TEAM_NAME = "AashishSingh"
+		TEAM_NAME = "aashishsingh"
 		AWS_REGION = "us-east-2"
 		SHORT_COMMIT_ID = "${GIT_COMMIT}".substring(0, 7)
 		SERVICE_NAME = "fraud-checker-service"
